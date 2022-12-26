@@ -1,0 +1,73 @@
+#conatiner
+{
+display: block;
+}
+#details
+{
+    display: flex;
+    flex-direction: column;
+    background: #249782;
+    width: 600px;
+    border-radius: 5px;
+    margin: auto;
+
+}
+#details img{
+    width: 225px;
+    height: 225px;
+    margin-left: 30px;
+    border-radius: 50px;
+    padding-bottom: 5px;;
+}
+body{
+   
+    background-color: #5171a9;
+    color: white;
+}
+h1{
+    font-size:50px;
+    text-align: left;
+}
+h2{
+    font-size: 20px;
+}
+#more-details
+{
+    margin: auto;
+    text-decoration: underline;
+}
+#return-pages
+{
+    border-bottom: 2px solid #fff;
+   
+}
+#return-pages:hover{
+    background: #fff;
+}
+#return-pages a{
+    color:#152238;
+    font-size:20px;
+    text-decoration: none;
+    padding:5px;
+    
+}
+#favourites
+{
+    float: right;
+    color: white;
+    position: relative;
+    top:20%;
+}
+.super-hero-details{
+
+}
+.super-hero-details p{
+    margin: 0px;
+    padding: 4px;
+    margin-left: 55px;
+}
+#head
+{
+    text-align: center;
+    color: white;
+}
